@@ -23,7 +23,7 @@ describe Knight do
     it 'returns the path to a different square' do
       knight = Knight.new
       path_taken = knight.knights_travails([3, 3], [4, 3])
-      expect([[3, 3], [5,4], [3,5], [4,3]]).to eql(path_taken)
+      expect([[3, 3], [5,4], [3,5], [4, 3]]).to eql(path_taken)
     end
 
     it 'returns the path to a different square' do
