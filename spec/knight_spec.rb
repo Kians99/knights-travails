@@ -32,7 +32,7 @@ describe Knight do
       expect([[0, 0], [1,2], [0,4]]).to eql(path_taken)
     end
 
-    it 'returns the path to a different square' do
+    it 'return nil for invalid inputs' do
       knight = Knight.new
       path_taken = knight.knights_travails("dogs", "cats")
       expect(path_taken).to eql(nil)
